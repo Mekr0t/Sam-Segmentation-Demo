@@ -38,7 +38,8 @@ Model checkpoints are downloaded automatically from:
 To run the app on your machine:
 
 ```bash
-git clone https://huggingface.co/spaces/UwUrquell/sam-segmentation-demo
+git clone https://github.com/Mekr0t/Sam-Segmentation-Demo
+# or git clone https://huggingface.co/spaces/UwUrquell/sam-segmentation-demo
 cd sam-segmentation-demo
 
 # (Recommended) Create a virtual environment
@@ -48,3 +49,4 @@ source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 pip install -r requirements.txt
 
 python app.py
+
