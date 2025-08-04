@@ -1,16 +1,3 @@
----
-title: Sam Segmentation Demo
-emoji: 🚀
-colorFrom: pink
-colorTo: pink
-sdk: gradio
-sdk_version: 5.23.3
-app_file: app.py
-pinned: false
-license: apache-2.0
-short_description: Demo of Meta AI's SAM for click-based segmentation.
----
-
 # 🎯 Segment Anything Model (SAM) Demo
 
 An interactive web application for object segmentation using [Meta AI's Segment Anything Model (SAM)](https://segment-anything.com/), built with [Gradio](https://gradio.app/).
@@ -59,4 +46,5 @@ python -m venv venv
 source venv/bin/activate  # On Windows: .\venv\Scripts\activate
 
 pip install -r requirements.txt
+
 python app.py
